@@ -24,9 +24,17 @@ Pregledač ima ugrađen engine ponekad nazvan "JavaScript virtual machine".
 
 Različite mašine(engines) imaju različita "imena kodova". Na primer:
 
+<<<<<<< HEAD
 - [V8](https://en.wikipedia.org/wiki/V8_(JavaScript_engine)) -- u Chromu i Operi.
 - [SpiderMonkey](https://en.wikipedia.org/wiki/SpiderMonkey) -- u Firefox-u.
 - ...Postoje druga imena kodova kao  "Chakra" za Internet Explorer, "ChakraCore" za Microsoft Edge, "Nitro" i "SquirrelFish" za Safari, i td.
+=======
+- [V8](https://en.wikipedia.org/wiki/V8_(JavaScript_engine)) -- in Chrome and Opera.
+- [SpiderMonkey](https://en.wikipedia.org/wiki/SpiderMonkey) -- in Firefox.
+- ...There are other codenames like "Chakra" for IE, "JavaScriptCore", "Nitro" and "SquirrelFish" for Safari, etc.
+
+The terms above are good to remember because they are used in developer articles on the internet. We'll use them too. For instance, if "a feature X is supported by V8", then it probably works in Chrome and Opera.
+>>>>>>> ef8d576821ff28c69bfb7410dc79fd216b0a315b
 
 Dobro je zapamtiti termine iznad zato što se koriste u programerskim člancima na internetu. Mi ćemo ih koristiti takođe. Na primer, ako je "funkcija X podržano od V8", onda verovatno funkcioniše u Chrome-u i Opera-i. 
 ```smart header="How do engines work?"
