@@ -24,9 +24,17 @@ Pregledač ima ugrađen engine ponekad nazvan "JavaScript virtual machine".
 
 Različite mašine(engines) imaju različita "imena kodova". Na primer:
 
+<<<<<<< HEAD
 - [V8](https://en.wikipedia.org/wiki/V8_(JavaScript_engine)) -- u Chromu i Operi.
 - [SpiderMonkey](https://en.wikipedia.org/wiki/SpiderMonkey) -- u Firefox-u.
 - ...Postoje druga imena kodova kao  "Chakra" za Internet Explorer, "ChakraCore" za Microsoft Edge, "Nitro" i "SquirrelFish" za Safari, i td.
+=======
+- [V8](https://en.wikipedia.org/wiki/V8_(JavaScript_engine)) -- in Chrome, Opera and Edge.
+- [SpiderMonkey](https://en.wikipedia.org/wiki/SpiderMonkey) -- in Firefox.
+- ...There are other codenames like "Chakra" for IE, "JavaScriptCore", "Nitro" and "SquirrelFish" for Safari, etc.
+
+The terms above are good to remember because they are used in developer articles on the internet. We'll use them too. For instance, if "a feature X is supported by V8", then it probably works in Chrome, Opera and Edge.
+>>>>>>> 246c600f11b4e6c52b4ae14f83e65319671f998f
 
 Dobro je zapamtiti termine iznad zato što se koriste u programerskim člancima na internetu. Mi ćemo ih koristiti takođe. Na primer, ako je "funkcija X podržano od V8", onda verovatno funkcioniše u Chrome-u i Opera-i. 
 ```smart header="How do engines work?"
@@ -51,11 +59,15 @@ In-browser JavaScript može sve što je povezano sa manipulacijom vebstranice, i
 
 Na primer, in-browser JavaScript može da:
 
+<<<<<<< HEAD
 - Dodaje novi HTML na stranicu, izmeni postojeći sadržaj, izmeni stilove.
 - Reaguje na akcije korisnika, pokreće se na klik miša, pokrete kursora, pritisak dugmeta.
 - Šalje zahteve putem mreža da bi upravljao serverima, daunlouduje i aplouduje fajlove (takozvani [AJAX](https://en.wikipedia.org/wiki/Ajax_(programming)) i [COMET](https://en.wikipedia.org/wiki/Comet_(programming)) tehnologije).
 - Dobija i postavlja kukije, postavlja pitanja posetiocu, pokazuje poruke.
 - Pamti informacije sa strane klijenta("local storage").
+=======
+JavaScript's abilities in the browser are limited for the sake of a user's safety. The aim is to prevent an evil webpage from accessing private information or harming the user's data.
+>>>>>>> 246c600f11b4e6c52b4ae14f83e65319671f998f
 
 ## Šta in-browser JavaScript ne može da radi?
 
@@ -82,9 +94,15 @@ takva ograničenja ne postoje ako je JavaScript korišćen van pretraživača, n
 
 Postoje najmanje tri bitne stvari o JavaScriptu: 
 ```compare
+<<<<<<< HEAD
 + Potpuna integracija sa HTML/CSS.
 + Jednostavne stvari koje se prosto izvršavaju.
 + Podrška od svih većih pretraživača i dozvola po default-u.
+=======
++ Full integration with HTML/CSS.
++ Simple things are done simply.
++ Supported by all major browsers and enabled by default.
+>>>>>>> 246c600f11b4e6c52b4ae14f83e65319671f998f
 ```
 JavaScript je jedina brauzer tehnologija koja kombinuje ove tri stavke. 
 
@@ -115,6 +133,12 @@ Ima ih više. Naravno, čak iako smo se navikli na neki od konvertovanih jezika,
 
 ## Rezime
 
+<<<<<<< HEAD
 - JavaScript je prvobitno stvoren kao jezik samo za pretraživače, ali se sada koristi i u mnogim drugim okruženjima.
 - Danas, JavaScript ima jedinstvenu poziciju kao najprihvaćeniji pretraživački jezik potpuno integrisan u HTML/CSS.
 - Postoje mnogi jezici koji su "pretočeni" u JavaScript i daju razne mogućnosti. Preporučujemo da ih istražite, barem nakon usavršavanja JavaScript-a.
+=======
+- JavaScript was initially created as a browser-only language, but it is now used in many other environments as well.
+- Today, JavaScript has a unique position as the most widely-adopted browser language, fully integrated with HTML/CSS.
+- There are many languages that get "transpiled" to JavaScript and provide certain features. It is recommended to take a look at them, at least briefly, after mastering JavaScript.
+>>>>>>> 246c600f11b4e6c52b4ae14f83e65319671f998f
